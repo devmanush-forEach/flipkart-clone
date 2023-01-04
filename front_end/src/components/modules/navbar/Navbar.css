@@ -1,0 +1,106 @@
+header {
+  height: 56px;
+  width: 100%;
+  background-color: var(--color-brand-blue);
+  padding: 0px 200px;
+  position: sticky;
+  top: 0%;
+  left: 0%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+nav > div {
+  padding: 0px 20px;
+}
+
+.nav_logo_box {
+  /* display: grid; */
+}
+
+.nav_logo_box > img {
+  height: 20px;
+}
+.explore_plus {
+  color: white;
+}
+
+.explore_plus > span {
+  color: var(--color-yellow);
+}
+.explore_plus > img {
+  height: 10px;
+}
+
+.login_btn {
+  height: 32px;
+  color: var(--color-brand-blue);
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 5px 40px;
+  border: 1px solid var(--color-grey-grade12);
+  /* font-size: 20px; */
+}
+
+.nav_search_form {
+  width: 540px;
+  background-color: white;
+  height: 36px;
+  position: relative;
+  padding: 0px 10px;
+}
+.nav_search_form > input {
+  width: 540px;
+  background-color: white;
+  border: none;
+  outline: none;
+  height: 36px;
+}
+.nav_search_form > button {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  background-color: white;
+  border: none;
+  outline: none;
+  height: 36px;
+  font-size: 25px;
+  display: grid;
+  place-items: center;
+  color: var(--color-brand-blue);
+}
+
+.nav_seller_options {
+  color: var(--color-white);
+}
+
+.seller_link {
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.nav_more_options {
+  color: var(--color-white);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.down_head {
+  font-size: 8px;
+  margin-top: 5px;
+}
+
+.nav_cart_option {
+  color: var(--color-white);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
